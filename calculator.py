@@ -1,3 +1,24 @@
+"""
+Simple Calculator (Tkinter GUI)
+--------------------------------
+A custom-built desktop calculator created using Python and Tkinter.
+This calculator supports basic arithmetic operations including addition,
+subtraction, multiplication, and division, with real-time display updates
+and error handling.
+
+Features:
+• Fully interactive Tkinter GUI
+• Handles multi-digit and decimal inputs
+• Supports +, -, *, / operations
+• Running calculation display (history bar)
+• Zero-division error protection with UI lock
+• Memory functions: MC, MR, M+, M-, MS
+• Negation, square, square root, reciprocal, percentage
+• Smart input system that resets after showing results
+
+Author: Kyaw Min Khant
+"""
+
 # Tutorial by Codemy.com, continued the code as suggested to make a calculator
 
 from tkinter import *
@@ -444,3 +465,4 @@ button_equal.grid(row=8, column=3)
 
 
 root.mainloop()
+
